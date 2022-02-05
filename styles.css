@@ -1,0 +1,138 @@
+
+
+  #title {
+  background-color:#181a43;
+  /* #191757  #17154f   #12113d*/
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.row{
+  margin-left: 0 !important;
+  margin-right:0 !important;
+  padding-left: 1rem;
+}
+.title-image {
+    width: 60%;
+  /* transform: rotate(25deg); */
+    position: absolute;
+    right: 25%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px rgb(50 175 188);
+    border: 2px solid rgb(118 213 174 / 60%);
+}
+.btn-pre{
+  background-image: linear-gradient(to left, #66ffcc 0%, #6666ff 50%);
+}
+/* services */
+#services{
+  z-index: 1;
+  padding: 6rem;
+  text-align: center;
+  background: #181a43;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#services h2{
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.card{
+  background:#181a43;
+  color: #fff;
+  /* box-shadow: 1px 1px 25px rgb(50 175 188); */
+  border: 2px solid rgb(118 213 174 / 60%);
+}
+.card-img-top{
+   height: 12rem;
+  /* width:  5rem; */
+}
+.card-button{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0
+}
+  .btn-view{
+    background: #181a43;
+    box-shadow: 1px 1px 1px 1px rgb(50 175 188);
+
+    /* border: 1px solid rgb(118 213 174 / 60%); */
+  }
+.btn-wdrw{
+  background: linear-gradient(to right, #99ffcc 0%, #6600cc 50%);
+  margin-left: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* About */
+ .section-about{
+   background: #AEFEFF;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.container{
+
+}
+/* footer */
+.footer{
+  padding: 5rem;
+  background: #181a43;
+
+  color: #fff;
+
+}
+.footer h1{
+  font-weight: bold;
+}
+.reg-btn{
+	  border-radius: 0 7px 7px 0;
+	  background: #0361e3;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+}
+ @media only screen and (max-width: 992px) {
+  .title-image{
+    /* height:80%;
+    width:80%; */
+  }
+  .header-content{
+
+  }
+  #title{
+    padding-bottom: 40%;
+
+  }
+}
+
+ @media only screen and (max-width: 600px) {
+ .footer-logo{
+   width: 60%;
+   text-align: center; */
+ /}
+ .row{
+   padding:0;
+
+
+   /* text-align: center; */
+ }
+.footer{
+  margin: 0;
+  padding-bottom: 2rem;
+}
+ .footer-container{
+   margin: auto 0;
+   padding: auto 2%;
+   justify-content: space-between;
+ }
+ .subscription-box{
+   width: 100%;
+ }
+}
